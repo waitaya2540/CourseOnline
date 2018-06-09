@@ -139,3 +139,41 @@ h2 {
     border-radius: 15px;
     padding: 15px;
 }
+
+/* nav1 */
+.nav1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+/* nav1 */
+.nav1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.nav1li {
+    float: left;
+}
+
+.nav1li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav1li a:hover:not(.active) {
+    background-color: gray;
+}
+
+.active {
+    background-color: #4CAF50;
+}
