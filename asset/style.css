@@ -26,7 +26,7 @@ a:hover {
  }
 
  .strike_modif {
-     color: darkgray;
+     color: red;
     font-size: 13px;
  }
 
@@ -68,10 +68,74 @@ h2 {
 	padding-bottom: 1em;
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:800px) {
     #col2, #col3 {font-size: 10px;};
 }
 
 @media screen and (max-width:480px) {
     #col2, #col3, #col4 {font-size: 8px;};
+}
+
+/* iframe modif */
+@media screen and (max-width:800px) {
+    #iframe_responsive {display: none;};
+}
+@media screen and (max-width:800px) {
+    .col-side-nav {display: none;};
+}
+@media screen and (max-width:480px) {
+    #iframe_responsive {display: none;};
+}
+
+@media screen and (max-width:800px) {
+    #iframe_responsive_main {width: 220px; height: 150px;}
+}
+
+
+/* BEST-SELLER */
+@media screen and (max-width:800px) {
+    #BEST-SELLER {display: none};
+}
+
+@media screen and (max-width:800px){
+    #modif-card, #head-card-modif {
+        font-size: 12px;
+    };
+}
+@media screen and (max-width:480px){
+    #modif-card, #head-card-modif {
+        font-size: 8px;
+
+    };
+}
+
+@media screen and (max-width: 800px){
+    #window-responsive {display: none;};
+    #mobile-responsive {display: inline;};
+}
+@media screen and (min-width: 799.99px){
+    #mobile-responsive {display: none;};
+}
+
+
+
+/* sidebar */
+.col-side-nav {
+    background-color: #fff;
+    border: 1px solid #E0E0E0;
+    bottom: -60px;
+    position: absolute;
+    z-index: 99;
+    padding: 3px;
+}
+
+#price-course {
+    font-size: 21px;
+}
+
+#modif-card {
+    background-color: #2d2e2e;
+    color: #fff;
+    border-radius: 15px;
+    padding: 15px;
 }

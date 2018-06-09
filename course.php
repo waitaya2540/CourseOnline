@@ -1,4 +1,5 @@
 <?php include 'header.php' ?>
+<div class="container">
     <h4>Popular Topics</h4>
     <button type="button" class="btn btn-outline-dark">Data Science</button>
     <button type="button" class="btn btn-outline-dark">Python</button>
@@ -13,7 +14,7 @@
     <div class="row">
         <div class="col" id="col1">
             <!-- card -->
-            <a href="#">
+            <a href="course_description.php">
                 <div class="card" data-toggle="popover1" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
                     <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
                     <div class="card-body">
@@ -25,7 +26,7 @@
         </div>
         <div class="col" id="col2" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
             <!-- card -->
-            <a href="#">
+            <a href="course_description.php">
                 <div class="card">
                     <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
                     <div class="card-body">
@@ -37,7 +38,7 @@
         </div>
         <div class="col" id="col3" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
             <!-- card -->
-            <a href="#">
+            <a href="course_description.php">
                 <div class="card">
                     <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
                     <div class="card-body">
@@ -49,7 +50,7 @@
         </div>
         <div class="col" id="col4" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
             <!-- card -->
-            <a href="#">
+            <a href="course_description.php">
                 <div class="card">
                     <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
                     <div class="card-body">
@@ -72,7 +73,7 @@
     <div class="row">
         <div class="col" id="col1">
             <!-- card -->
-            <a href="#">
+            <a href="course_description.php">
                 <div class="card" data-toggle="popover1" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
                     <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
                     <div class="card-body">
@@ -84,7 +85,7 @@
         </div>
         <div class="col" id="col2" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
             <!-- card -->
-            <a href="#">
+            <a href="course_description.php">
                 <div class="card">
                     <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
                     <div class="card-body">
@@ -96,7 +97,7 @@
         </div>
         <div class="col" id="col3" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
             <!-- card -->
-            <a href="#">
+            <a href="course_description.php">
                 <div class="card">
                     <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
                     <div class="card-body">
@@ -108,7 +109,7 @@
         </div>
         <div class="col" id="col4" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
             <!-- card -->
-            <a href="#">
+            <a href="course_description.php">
                 <div class="card">
                     <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
                     <div class="card-body">
@@ -131,7 +132,7 @@
     <div class="row">
         <div class="col" id="col1">
             <!-- card -->
-            <a href="#">
+            <a href="course_description.php">
                 <div class="card" data-toggle="popover1" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
                     <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
                     <div class="card-body">
@@ -143,7 +144,7 @@
         </div>
         <div class="col" id="col2" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
             <!-- card -->
-            <a href="#">
+            <a href="course_description.php">
                 <div class="card">
                     <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
                     <div class="card-body">
@@ -155,7 +156,7 @@
         </div>
         <div class="col" id="col3" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
             <!-- card -->
-            <a href="#">
+            <a href="course_description.php">
                 <div class="card">
                     <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
                     <div class="card-body">
@@ -167,7 +168,7 @@
         </div>
         <div class="col" id="col4" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
             <!-- card -->
-            <a href="#">
+            <a href="course_description.php">
                 <div class="card">
                     <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
                     <div class="card-body">
@@ -186,4 +187,5 @@
     </ul>
     </nav>
     <!-- pagination -->
+</div>
 <?php include 'footer.php' ?>
