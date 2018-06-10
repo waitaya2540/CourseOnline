@@ -15,12 +15,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="asset/js.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gijgo@1.9.6/js/gijgo.min.js" type="text/javascript"></script>
-    <script>
-      // data table
-      $(document).ready( function () {
-          $('#myTable').DataTable();
-      } );
-    </script>
 
     <title>กอ​เอ็ดดูเคชั่น</title>
 
@@ -30,5 +24,5 @@
 <!-- nav bar -->
 <ul class="nav1">
   <li class="nav1li"><a href="#home">กอเอ็ดดูเคชั่น</a></li>
-  <li style="float:right" class="nav1li"><a class="active" href="#about">About</a></li>
+  <li style="float:right" class="nav1li"><a class="active_nav" href="#about">About</a></li>
 </ul>

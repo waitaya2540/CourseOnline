@@ -1,5 +1,10 @@
 <?php include 'header.php' ?>
-<div class="container">
+
+<!-- include js and css of course -->
+<link rel="stylesheet" href="./asset/course.css">
+<script src="./asset/course.js"></script>
+
+<div class="container mb-5 mt-3">
     <h4>Popular Topics</h4>
     <button type="button" class="btn btn-outline-dark">Data Science</button>
     <button type="button" class="btn btn-outline-dark">Python</button>
@@ -10,182 +15,341 @@
     <button type="button" class="btn btn-outline-dark">SQL</button>
     <button type="button" class="btn btn-outline-dark">PMBOK</button>
     <button type="button" class="btn btn-outline-dark">R</button><br/>
-    <h4>Because you searched for "unreal"</h4>
-    <div class="row">
-        <div class="col" id="col1">
-            <!-- card -->
-            <a href="course_description.php">
-                <div class="card" data-toggle="popover1" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
-                    <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text text_ellipsis">Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.</p>
-                        <p href="#" class="text-primary" align="right"><strike class="strike_modif">34,000$</strike> 0.99$</p>
+    <h4 class="mt-3 mb-3">Because you searched for "unreal"</h4>
+    <div class="container-fluid">
+        <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="9000">
+            <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                <div class="carousel-item col-md-3 active" style="border: 1px solid #6c757d38;">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 1" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=1" alt="slide 1">
+                        </a>
+                        <div class="text-center mb-2">
+                            <h5>CCNP All-in-1 Video Boot Camp With Chris Bryant</h5>
+                        </div>
+                    </div>
                     </div>
                 </div>
+                <div class="carousel-item col-md-3 "  style="border: 1px solid #6c757d38;">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 3" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=2" alt="slide 2">
+                        </a>
+                            <div class="text-center">
+                                <h5>Java for beginners course (Core concepts)</h5>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-3 "  style="border: 1px solid #6c757d38;">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 4" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=3" alt="slide 3">
+                        </a>
+                            <div class="text-center">
+                                <h5>Learn C# By Building Applications</h5>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-3 "  style="border: 1px solid #6c757d38;">
+                    <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 5" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=4" alt="slide 4">
+                        </a>
+                            <div class="text-center">
+                                <h5>The Ultimate Drawing Course - Beginner to Advanced</h5>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-3 "  style="border: 1px solid #6c757d38;">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 6" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=5" alt="slide 5">
+                        </a>
+                            <div class="text-center">
+                                <h5>Complete Python Bootcamp: Go from zero to hero in Python 3</h5>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-3 "  style="border: 1px solid #6c757d38;">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 7" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=6" alt="slide 6">
+                        </a>
+                        <div class="text-center">
+                            <h5>Video Editing with Adobe Premiere Pro 2018 for Beginners</h5>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-3 "  style="border: 1px solid #6c757d38;">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 8" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=7" alt="slide 7">
+                        </a>
+                        <div class="text-center">
+                            <h5>Android N: From Beginner to Paid Professional</h5>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-3  "  style="border: 1px solid #6c757d38;">
+                    <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 2" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=8" alt="slide 8">
+                        </a>
+                        <div class="text-center">
+                            <h5>The Complete iOS 11 & Swift Developer Course - Build 20 Apps</h5>
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
             </a>
-        </div>
-        <div class="col" id="col2" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
-            <!-- card -->
-            <a href="course_description.php">
-                <div class="card">
-                    <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text text_ellipsis">Learn how to use NumPy, Pandas, Seaborn , Matplotlib , Plotly , Scikit-Learn , Machine Learning, Tensorflow , and more!</p>
-                        <p href="#" class="text-primary" align="right"><strike class="strike_modif">34,000$</strike> 0.99$</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col" id="col3" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
-            <!-- card -->
-            <a href="course_description.php">
-                <div class="card">
-                    <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text text_ellipsis">PMP Exam Prep Seminar - Complete coverage of the PMBOK Guide, sixth edition for the PMP exam success</p>
-                        <p href="#" class="text-primary" align="right"><strike class="strike_modif">34,000$</strike> 0.99$</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col" id="col4" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
-            <!-- card -->
-            <a href="course_description.php">
-                <div class="card">
-                    <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text text_ellipsis">Learn to create Deep Learning Algorithms in Python from two Machine Learning & Data Science experts. Templates included.</p>
-                        <p href="#" class="text-primary" align="right"><strike class="strike_modif">34,000$</strike> 0.99$</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
-    <!-- pagination -->
-    <nav aria-label="Page navigation example">
-    <ul class="pagination justify-content-center mt-2">
-        <li class="page-item"><a class="page-link" href="#"><</a></li>
-        <li class="page-item"><a class="page-link" href="#">></a></li>
-    </ul>
-    </nav>
-    <!-- pagination -->
-    <h4>Because you enrolled in "Learn Android Application Development"</h4>
-    <div class="row">
-        <div class="col" id="col1">
-            <!-- card -->
-            <a href="course_description.php">
-                <div class="card" data-toggle="popover1" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
-                    <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text text_ellipsis">Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.</p>
-                        <p href="#" class="text-primary" align="right"><strike class="strike_modif">34,000$</strike> 0.99$</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col" id="col2" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
-            <!-- card -->
-            <a href="course_description.php">
-                <div class="card">
-                    <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text text_ellipsis">Learn how to use NumPy, Pandas, Seaborn , Matplotlib , Plotly , Scikit-Learn , Machine Learning, Tensorflow , and more!</p>
-                        <p href="#" class="text-primary" align="right"><strike class="strike_modif">34,000$</strike> 0.99$</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col" id="col3" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
-            <!-- card -->
-            <a href="course_description.php">
-                <div class="card">
-                    <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text text_ellipsis">PMP Exam Prep Seminar - Complete coverage of the PMBOK Guide, sixth edition for the PMP exam success</p>
-                        <p href="#" class="text-primary" align="right"><strike class="strike_modif">34,000$</strike> 0.99$</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col" id="col4" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
-            <!-- card -->
-            <a href="course_description.php">
-                <div class="card">
-                    <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text text_ellipsis">Learn to create Deep Learning Algorithms in Python from two Machine Learning & Data Science experts. Templates included.</p>
-                        <p href="#" class="text-primary" align="right"><strike class="strike_modif">34,000$</strike> 0.99$</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
-    <!-- pagination -->
-    <nav aria-label="Page navigation example">
-    <ul class="pagination justify-content-center mt-2">
-        <li class="page-item"><a class="page-link" href="#"><</a></li>
-        <li class="page-item"><a class="page-link" href="#">></a></li>
-    </ul>
-    </nav>
-    <!-- pagination -->
-    <h4>New and noteworthy in "Business"</h4>
-    <div class="row">
-        <div class="col" id="col1">
-            <!-- card -->
-            <a href="course_description.php">
-                <div class="card" data-toggle="popover1" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
-                    <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text text_ellipsis">Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.</p>
-                        <p href="#" class="text-primary" align="right"><strike class="strike_modif">34,000$</strike> 0.99$</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col" id="col2" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
-            <!-- card -->
-            <a href="course_description.php">
-                <div class="card">
-                    <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text text_ellipsis">Learn how to use NumPy, Pandas, Seaborn , Matplotlib , Plotly , Scikit-Learn , Machine Learning, Tensorflow , and more!</p>
-                        <p href="#" class="text-primary" align="right"><strike class="strike_modif">34,000$</strike> 0.99$</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col" id="col3" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
-            <!-- card -->
-            <a href="course_description.php">
-                <div class="card">
-                    <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text text_ellipsis">PMP Exam Prep Seminar - Complete coverage of the PMBOK Guide, sixth edition for the PMP exam success</p>
-                        <p href="#" class="text-primary" align="right"><strike class="strike_modif">34,000$</strike> 0.99$</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col" id="col4" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
-            <!-- card -->
-            <a href="course_description.php">
-                <div class="card">
-                    <img class="card-img-top" src="https://www.solidsolutiondesigns.com/wp-content/themes/Furniture/images/noimage-300x200.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text text_ellipsis">Learn to create Deep Learning Algorithms in Python from two Machine Learning & Data Science experts. Templates included.</p>
-                        <p href="#" class="text-primary" align="right"><strike class="strike_modif">34,000$</strike> 0.99$</p>
-                    </div>
-                </div>
+            <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
             </a>
         </div>
     </div>
-    <!-- pagination -->
-    <nav aria-label="Page navigation example">
-    <ul class="pagination justify-content-center mt-2">
-        <li class="page-item"><a class="page-link" href="#"><</a></li>
-        <li class="page-item"><a class="page-link" href="#">></a></li>
-    </ul>
-    </nav>
-    <!-- pagination -->
+    <h4 class="mt-3 mb-3">Because you enrolled in "Learn Android Application Development"</h4>
+    <div class="container-fluid">
+        <div id="carouselExample1" class="carousel slide" data-ride="carousel" data-interval="9000">
+            <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                <div class="carousel-item col-md-3 active" style="border: 1px solid #6c757d38;">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 1" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=1" alt="slide 1">
+                        </a>
+                        <div class="text-center mb-2">
+                            <h5>CCNP All-in-1 Video Boot Camp With Chris Bryant</h5>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-3 "  style="border: 1px solid #6c757d38;">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 3" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=2" alt="slide 2">
+                        </a>
+                            <div class="text-center">
+                                <h5>Java for beginners course (Core concepts)</h5>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-3 "  style="border: 1px solid #6c757d38;">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 4" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=3" alt="slide 3">
+                        </a>
+                            <div class="text-center">
+                                <h5>Learn C# By Building Applications</h5>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-3 "  style="border: 1px solid #6c757d38;">
+                    <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 5" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=4" alt="slide 4">
+                        </a>
+                            <div class="text-center">
+                                <h5>The Ultimate Drawing Course - Beginner to Advanced</h5>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-3 "  style="border: 1px solid #6c757d38;">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 6" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=5" alt="slide 5">
+                        </a>
+                            <div class="text-center">
+                                <h5>Complete Python Bootcamp: Go from zero to hero in Python 3</h5>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-3 "  style="border: 1px solid #6c757d38;">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 7" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=6" alt="slide 6">
+                        </a>
+                        <div class="text-center">
+                            <h5>Video Editing with Adobe Premiere Pro 2018 for Beginners</h5>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-3 "  style="border: 1px solid #6c757d38;">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 8" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=7" alt="slide 7">
+                        </a>
+                        <div class="text-center">
+                            <h5>Android N: From Beginner to Paid Professional</h5>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-3  "  style="border: 1px solid #6c757d38;">
+                    <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 2" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=8" alt="slide 8">
+                        </a>
+                        <div class="text-center">
+                            <h5>The Complete iOS 11 & Swift Developer Course - Build 20 Apps</h5>
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample1" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next text-faded" href="#carouselExample1" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <h4 class="mt-3 mb-3">New and noteworthy in "Business"</h4>
+    <div class="container-fluid">
+        <div id="carouselExample2" class="carousel slide" data-ride="carousel" data-interval="9000">
+            <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                <div class="carousel-item col-md-3 active" style="border: 1px solid #6c757d38;">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 1" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=1" alt="slide 1">
+                        </a>
+                        <div class="text-center mb-2">
+                            <h5>CCNP All-in-1 Video Boot Camp With Chris Bryant</h5>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-3 "  style="border: 1px solid #6c757d38;">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 3" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=2" alt="slide 2">
+                        </a>
+                            <div class="text-center">
+                                <h5>Java for beginners course (Core concepts)</h5>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-3 "  style="border: 1px solid #6c757d38;">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 4" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=3" alt="slide 3">
+                        </a>
+                            <div class="text-center">
+                                <h5>Learn C# By Building Applications</h5>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-3 "  style="border: 1px solid #6c757d38;">
+                    <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 5" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=4" alt="slide 4">
+                        </a>
+                            <div class="text-center">
+                                <h5>The Ultimate Drawing Course - Beginner to Advanced</h5>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-3 "  style="border: 1px solid #6c757d38;">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 6" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=5" alt="slide 5">
+                        </a>
+                            <div class="text-center">
+                                <h5>Complete Python Bootcamp: Go from zero to hero in Python 3</h5>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-3 "  style="border: 1px solid #6c757d38;">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 7" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=6" alt="slide 6">
+                        </a>
+                        <div class="text-center">
+                            <h5>Video Editing with Adobe Premiere Pro 2018 for Beginners</h5>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-3 "  style="border: 1px solid #6c757d38;">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 8" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=7" alt="slide 7">
+                        </a>
+                        <div class="text-center">
+                            <h5>Android N: From Beginner to Paid Professional</h5>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-3  "  style="border: 1px solid #6c757d38;">
+                    <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 2" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=8" alt="slide 8">
+                        </a>
+                        <div class="text-center">
+                            <h5>The Complete iOS 11 & Swift Developer Course - Build 20 Apps</h5>
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next text-faded" href="#carouselExample2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
 </div>
 <?php include 'footer.php' ?>
